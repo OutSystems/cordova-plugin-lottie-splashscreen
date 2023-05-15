@@ -1,0 +1,22 @@
+{
+  "name": "lottie-demo",
+  "version": "0.0.0",
+  "private": true,
+  "description": "A sample Apache Cordova application to showcase the cordova-plugin-lottie-splashscreen-plugin",
+  "author": "Tim Brust <github@timbrust.de>",
+  "license": "MIT",
+  "dependencies": {
+    "cordova-android": "^10.1.2",
+    "cordova-ios": "^6.2.0",
+    "cordova-plugin-lottie-splashscreen": "^0.9.6"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-lottie-splashscreen": {}
+    },
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  }
+}
