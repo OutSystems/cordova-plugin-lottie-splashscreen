@@ -6,7 +6,7 @@
   "author": "Tim Brust <github@timbrust.de>",
   "license": "MIT",
   "dependencies": {
-    "cordova-android": "^10.1.2",
+    "cordova-android": "^13.0.0",
     "cordova-ios": "^6.2.0",
     "cordova-plugin-lottie-splashscreen": "^0.9.6"
   },
