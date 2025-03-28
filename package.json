@@ -6,7 +6,7 @@
   "license": "MIT",
   "types": "./types/index.d.ts",
   "scripts": {
-    "prepare": "node -e \"try { require('husky').install() } catch (e) {if (e.code !== 'MODULE_NOT_FOUND') throw e}\"",
+    "prepare": "node -e \"import('husky').then(husky => husky.default()).catch(e => { if (e.code !== 'ERR_MODULE_NOT_FOUND') throw e })\"",
     "build": "tsc",
     "lint": "npm run lint:android && npm run lint:ios && npm run lint:typescript",
     "lint:android": "ktlint src/android",
@@ -16,19 +16,20 @@
     "release": "standard-version -s -a"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.4.4",
-    "@commitlint/config-angular": "^17.4.4",
-    "@types/cordova": "^11.0.0",
-    "@typescript-eslint/eslint-plugin": "^5.52.0",
-    "@typescript-eslint/parser": "^5.52.0",
-    "eslint": "^8.34.0",
-    "eslint-plugin-prettier": "^4.2.1",
-    "husky": "^8.0.3",
-    "lint-staged": "^13.1.2",
-    "prettier": "^2.8.4",
+    "@commitlint/cli": "^19.5.0",
+    "@commitlint/config-angular": "^19.5.0",
+    "@eslint/js": "^9.11.0",
+    "@types/cordova": "^11.0.3",
+    "@types/eslint__js": "^8.42.3",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "husky": "^9.1.6",
+    "lint-staged": "^15.2.10",
+    "prettier": "^3.3.3",
     "replace": "^1.2.2",
     "standard-version": "^9.5.0",
-    "typescript": "^5.0.2"
+    "typescript": "^5.6.2",
+    "typescript-eslint": "^8.6.0"
   },
   "cordova": {
     "id": "cordova-plugin-lottie-splashscreen",
