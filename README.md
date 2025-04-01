@@ -1,11 +1,5 @@
 # cordova-plugin-lottie-splashscreen
 
-[![dependency Status](https://img.shields.io/librariesio/release/npm/cordova-plugin-lottie-splashscreen)](https://github.com/OutSystems/cordova-plugin-lottie-splashscreen/network/dependencies)
-[![Known Vulnerabilities](https://snyk.io/test/github/OutSystems/cordova-plugin-lottie-splashscreen/badge.svg)](https://snyk.io/test/github/OutSystems/cordova-plugin-lottie-splashscreen)
-
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![npm](https://img.shields.io/npm/v/cordova-plugin-lottie-splashscreen.svg)](https://www.npmjs.com/package/cordova-plugin-lottie-splashscreen)
-
 #### This plugin is based on the code published by Tim Brust at [this location](https://github.com/timbru31/cordova-plugin-lottie-splashscreen).
 We sincerely thank and acknowledge the contributors of the parent repository for their invaluable efforts and contributions in improving the Cordova plugin, as well as for their commitment to keeping it up to date.
 
