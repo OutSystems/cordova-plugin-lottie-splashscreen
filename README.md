@@ -1,18 +1,7 @@
 # cordova-plugin-lottie-splashscreen
 
-[![Run a security audit](https://github.com/timbru31/cordova-plugin-lottie-splashscreen/workflows/Run%20a%20security%20audit/badge.svg)](https://github.com/timbru31/cordova-plugin-lottie-splashscreen/actions?query=workflow%3A%22Run+a+security+audit%22)
-[![Linting](https://github.com/timbru31/cordova-plugin-lottie-splashscreen/workflows/Linting/badge.svg)](https://github.com/timbru31/cordova-plugin-lottie-splashscreen/actions?query=workflow%3ALinting)
-[![Smoke test on Ubuntu (Apache Cordova)](https://github.com/timbru31/cordova-plugin-lottie-splashscreen/actions/workflows/smoke-test-ubuntu.yml/badge.svg)](https://github.com/timbru31/cordova-plugin-lottie-splashscreen/actions/workflows/smoke-test-ubuntu.yml)
-[![Smoke test on Ubuntu (Ionic)](https://github.com/timbru31/cordova-plugin-lottie-splashscreen/actions/workflows/smoke-test-ubuntu-ionic.yml/badge.svg)](https://github.com/timbru31/cordova-plugin-lottie-splashscreen/actions/workflows/smoke-test-ubuntu-ionic.yml)
-[![Smoke test on macOS](https://github.com/timbru31/cordova-plugin-lottie-splashscreen/workflows/Smoke%20test%20on%20macOS/badge.svg)](https://github.com/timbru31/cordova-plugin-lottie-splashscreen/actions?query=workflow%3A%22Smoke+test+on+macOS%22)
-[![Smoke test on Windows](https://github.com/timbru31/cordova-plugin-lottie-splashscreen/workflows/Smoke%20test%20on%20Windows/badge.svg)](https://github.com/timbru31/cordova-plugin-lottie-splashscreen/actions?query=workflow%3A%22Smoke+test+on+Windows%22)
-
-[![dependency Status](https://img.shields.io/librariesio/release/npm/cordova-plugin-lottie-splashscreen)](https://github.com/timbru31/cordova-plugin-lottie-splashscreen/network/dependencies)
-[![Known Vulnerabilities](https://snyk.io/test/github/timbru31/cordova-plugin-lottie-splashscreen/badge.svg)](https://snyk.io/test/github/timbru31/cordova-plugin-lottie-splashscreen)
-
-[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](https://commitizen.github.io/cz-cli/)
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![npm](https://img.shields.io/npm/v/cordova-plugin-lottie-splashscreen.svg)](https://www.npmjs.com/package/cordova-plugin-lottie-splashscreen)
+#### This plugin is based on the code published by Tim Brust at [this location](https://github.com/timbru31/cordova-plugin-lottie-splashscreen).
+We sincerely thank and acknowledge the contributors of the parent repository for their invaluable efforts and contributions in improving the Cordova plugin, as well as for their commitment to keeping it up to date.
 
 #### Apache Cordova plugin to show bodymovin/Lottie animations as the splash screen with [Airbnb's Lottie](https://airbnb.io/lottie/) wrapper
 
@@ -20,10 +9,6 @@
 
 -   **iOS (11+) (with cordova-ios >= 5.0.0 only)**
 -   **Android (with cordova-android >= 10.0.0 only)**
-
-### Planned platforms
-
--   **macOS** (currently on hold until cordova-osx has a better Swift and CocoaPods support or cordova-ios gains Catalyst support)
 
 #### Prerequisites/Warnings
 
@@ -55,7 +40,7 @@ In the [FAQ](FAQ.md) are some examples with common error messages and how to fix
 
 #### from git (unstable)
 
-`$ cordova plugin add https://github.com/timbru31/cordova-plugin-lottie-splashscreen.git`
+`$ cordova plugin add https://github.com/OutSystems/cordova-plugin-lottie-splashscreen.git`
 
 ### Usage
 
@@ -235,4 +220,4 @@ await lottie.splashscreen.once(event: LottieEvent).then(event => console.log(eve
 
 ---
 
-Built by (c) Tim Brust and contributors. Released under the MIT license.
+Based on the plugin built by (c) Tim Brust and contributors. Released under the MIT license.
