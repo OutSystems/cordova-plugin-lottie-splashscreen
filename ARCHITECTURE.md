@@ -31,9 +31,9 @@ graph TB
     Plugin -.->|JavaScript events<br/>Asynchronous| CordovaAPI
 
     %% Styling
-    classDef thisRepo fill:#e0f2f1,stroke:#00796b,stroke-width:3px
-    classDef external fill:#ffe1e1,stroke:#d32f2f,stroke-width:2px,stroke-dasharray: 5 5
-    classDef storage fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px
+    classDef thisRepo fill:#4dd0e1,stroke:#00acc1,stroke-width:3px,color:#000
+    classDef external fill:#ff8a65,stroke:#d84315,stroke-width:2px,stroke-dasharray: 5 5,color:#000
+    classDef storage fill:#ba68c8,stroke:#7b1fa2,stroke-width:2px,color:#000
 
     class Plugin thisRepo
     class CordovaAPI,LottieAndroid,LottieiOS,RemoteURL external
